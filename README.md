@@ -10,5 +10,5 @@ response to homework sw_candidate_proj2
 
 # Setup Instructions:
 - Start with vanilla Unbuntu 14.04
-- Download shell script
-- Run shell script (pulls files, installs docker, stands up services)
+- git clone https://github.com/JordanNoone/jn_sw_candidate_proj2.git
+- ./jn_sw_candidate_proj2/setupServices.bash
