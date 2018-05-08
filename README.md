@@ -7,8 +7,8 @@ response to homework sw_candidate_proj2
 
 # TODO:
 - Install docker with shell script
-
+- pull /etc/grafana/grafana.ini
 # Setup Instructions:
 - Start with vanilla Unbuntu 14.04
 - git clone https://github.com/JordanNoone/jn_sw_candidate_proj2.git
-- ./jn_sw_candidate_proj2/setupServices.bash
+- sudo bash ./jn_sw_candidate_proj2/setupServices.bash
