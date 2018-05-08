@@ -1,1 +1,8 @@
-temp
+$ #provisioning/dashboard/dashboards.yaml
+
+- name: 'default'
+orgid: 1
+folder: ''
+type: 'file'
+options:
+	folder: '/etc/grafana/dashboards'
