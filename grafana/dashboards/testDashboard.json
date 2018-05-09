@@ -95,7 +95,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Panel Title",
+      "title": "Jordan's New Data",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -133,6 +133,7 @@
       }
     }
   ],
+  "refresh": "5s",
   "schemaVersion": 16,
   "style": "dark",
   "tags": [],
