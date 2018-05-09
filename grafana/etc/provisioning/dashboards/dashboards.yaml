@@ -1,8 +1,10 @@
-$ #provisioning/dashboard/dashboards.yaml
+#provisioning/dashboard/dashboards.yaml
+apiVersion: 1
 
+providers:
 - name: 'default'
-orgid: 1
-folder: ''
-type: 'file'
-options:
-	folder: '/etc/grafana/dashboards'
+  orgid: 1
+  folder: ''
+  type: 'file'
+  options:
+    path: '/var/lib/grafana/dashboards'

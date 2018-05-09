@@ -17,5 +17,5 @@ docker run --name influxdb -d -p 8086:8086 -p 25826:25826/udp -v ~/influxdb:/var
 # Configure InfluxDB
 
 # Install Grafana
-docker run --name grafana -d -p 3000:3000 -v ~/jn_sw_candidate_proj2/grafana/etc:/etc/grafana/:rw --link influxdb grafana/grafana
+docker run --name grafana -d -p 3000:3000 -v ~/jn_sw_candidate_proj2/grafana/etc:/etc/grafana/:rw -v ~/jn_sw_candidate_proj2/grafana/dashboards:/var/lib/grafana/dashboards/ --link influxdb grafana/grafana
 # Configure Grafana
